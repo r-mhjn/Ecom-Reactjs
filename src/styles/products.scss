@@ -1,0 +1,53 @@
+.container-fluid {
+  max-width: 1000px;
+}
+.card {
+  background-color: whitesmoke;
+  border: 0.5px solid #c9c9c9;
+}
+.course-card-btn {
+  background-color: forestgreen;
+  border: 0.5px solid #c9c9c9;
+}
+
+@media only screen and (max-width: 1500px) {
+  .productDiv {
+    width: 900px;
+  }
+  .addProductBtn {
+    width: 40%;
+    margin-left: 56%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .productDiv {
+    width: 800px;
+  }
+  .addProductBtn {
+    width: 36%;
+    margin-left: 64%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .productDiv {
+    width: auto;
+  }
+  .addProductBtn {
+    width: 44%;
+    margin-left: 56%;
+  }
+}
+
+.addProductBtn {
+  background-color: #82bb37;
+  color: #fff;
+  margin-bottom: 10;
+  width: 44%;
+  margin-left: 56%;
+  margin-bottom: 3%;
+  &:hover {
+    color: #fff;
+  }
+}

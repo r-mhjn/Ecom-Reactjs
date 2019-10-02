@@ -1,0 +1,119 @@
+$body-bg: #c1bdba;
+$form-bg: #13232f;
+$white: #ffffff;
+$grey-text: #686868;
+$gray-light: #f5f5f5;
+$gray-border: #e0e0e0;
+$borderGreen: #82bb37;
+
+.cartDiv {
+  position: relative;
+  float: right;
+  border: 2px solid $gray-border;
+  top: 58px;
+  right: 50px;
+  height: 600px;
+  width: 400px;
+  max-width: 400px;
+  border-radius: 2px;
+  border-top-width: 4px;
+  border-top-color: $borderGreen;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-bottom: 0px;
+}
+
+.cartDiv::-webkit-scrollbar {
+  width: 2px;
+  height: 12px;
+}
+
+.cartDiv::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #d8d8d8;
+  border-radius: 10px;
+}
+
+.cartDiv::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #82bb37;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.cartDiv::-webkit-scrollbar-thumb:hover {
+  background: #bebebe;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cartDiv {
+    display: none;
+  }
+  .checkoutDiv {
+    display: none;
+  }
+}
+
+.checkoutDiv {
+  position: relative;
+  float: right;
+  border: 2px solid $gray-border;
+  top: 658px;
+  right: -350px;
+  height: 100px;
+  width: 400px;
+  max-width: 400px;
+  border-radius: 2px;
+  border-top: 0px;
+
+  background-color: #eff5fb;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.011), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 0px;
+}
+
+.buttonStyle {
+  width: 90%;
+  margin-left:100px;
+  font-size: 14px;
+  color:#fff;
+  text-align:center;
+}
+
+.checkoutSpan {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cardDiv {
+  background-color: #fff;
+  max-width: 360px;
+  margin: 20px 20px;
+  max-height: 200px;
+  border: 0px;
+}
+
+.lineDivider {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top: 1px dashed #82bb37;
+}
+
+.quantityDiv {
+  position: "relative";
+  width: 90px;
+  right: 138px;
+  top: 10px;
+}
+
+.incdecButtons {
+  background-color: #fff;
+  height: 30px;
+  border: 1px solid #a3a3a3;
+  border-radius: 1.5px;
+  color: #a3a3a3;
+}
