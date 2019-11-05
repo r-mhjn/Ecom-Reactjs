@@ -44,7 +44,9 @@ mongoose
   .connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    reconnectTries: 30,
+    reconnectInterval: 500, 
   })
   .then(() => {
     console.log("Mongo connected successfully");

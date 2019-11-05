@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.4.3",
-    "@material-ui/icons": "^4.4.3",
     "axios": "^0.19.0",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
@@ -13,8 +11,6 @@
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "glamor": "^2.20.40",
-    "glamorous": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.1",
     "morgan": "^1.9.1",

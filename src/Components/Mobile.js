@@ -2,7 +2,6 @@ import React from "react";
 import Axios from "axios";
 import Progress from "./Progress";
 import { Link } from "react-router-dom";
-import { positions } from "@material-ui/system";
 const ip = require("../ipAddress");
 
 export default class Mobiles extends React.Component {

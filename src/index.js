@@ -12,7 +12,7 @@ import "primeflex/primeflex.css";
 import "./styles/products.scss";
 import "./styles/login.scss";
 import "./styles/cart.scss";
-import 'react-tabs/style/react-tabs.scss';
+// import 'react-tabs/style/react-tabs.scss';
 import './styles/tabs.scss'
 
 ReactDOM.render(<App />, document.getElementById("root"));

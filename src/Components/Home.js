@@ -1,22 +1,22 @@
-import React from "react";
-import Axios from "axios";
-import TabPanel from "../Screens/TabPanel";
-const ip = require("../ipAddress");
+import React from 'react';
+import Axios from 'axios';
+import TabPanel from '../Screens/TabPanel';
+const ip = require('../ipAddress');
 
 export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
+	constructor(props) {
+		super(props);
 
-    this.state = {};
-  }
+		this.state = {};
+	}
 
-  componentDidMount() {}
+	componentDidMount() {}
 
-  render() {
-    return (
-      <div>
-        <TabPanel />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<TabPanel />
+			</div>
+		);
+	}
 }
